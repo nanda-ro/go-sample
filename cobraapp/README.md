@@ -7,7 +7,7 @@ $ cobra-cli add hello
 $ cobra-cli add world
 $ go run main.go hello
 hello called
-$ go run main.go world
+$ go run main.go hello world
 world called
 ```
 

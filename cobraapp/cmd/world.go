@@ -15,7 +15,7 @@ var worldCmd = &cobra.Command{
 }
 
 func init() {
-	rootCmd.AddCommand(worldCmd)
+	helloCmd.AddCommand(worldCmd)
 	// worldCmd.PersistentFlags().String("foo", "", "A help for foo")
 	// worldCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
